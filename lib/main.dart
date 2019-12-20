@@ -31,6 +31,7 @@ class RandomWordsState extends State<RandomWords> {
                   pair.asPascalCase,
                   style: _biggerFont,
                 ),
+                trailing: Icon(Icons.more_vert),
               );
             },
           );
