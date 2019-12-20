@@ -17,7 +17,7 @@ Widget build(BuildContext context) {
 }
 
 class RandomWordsState extends State<RandomWords> {
-  final List<WordPair> _suggestions = <WordPair>[];
+  final List<WordPair> _suggestions = [];
   final Set<WordPair> _saved = Set<WordPair>();
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0);
   void _pushSaved() {
